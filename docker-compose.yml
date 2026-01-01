@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: laas
+      POSTGRES_PASSWORD: laas
+      POSTGRES_DB: laas
+    ports:
+      - "5432:5432"
